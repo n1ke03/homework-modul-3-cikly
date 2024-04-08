@@ -1,9 +1,8 @@
-num1 = int(input("Введите целое число: "))
-num2 = int(input("Введите целое число: "))
+# num1 = int(input("Введите целое число: "))
+# num2 = int(input("Введите целое число: "))
 # for i in range(num1, num2):
 #   if i % 7 == 0:
 #     print(i)
-
 
 # for i in range(num1, num2):
 #   print(i)
@@ -18,7 +17,6 @@ num2 = int(input("Введите целое число: "))
 #     count += 1
 #     print(count)
 
-
 # for i in range(num1, num2):
 #   if i % 3 == 0 and i % 5 == 0:
 #     print("Fizz Buzz")
@@ -28,3 +26,63 @@ num2 = int(input("Введите целое число: "))
 #     print("Fizz")
 #   elif i % 3 and i % 5:
 #     print(i)
+
+
+
+# num1 = int(input("Введите целое число: "))
+# num2 = int(input("Введите целое число: "))
+# chet = 0
+# nechet = 0
+# krat = 0
+# a_chet = 0
+# a_nechet = 0
+# a_krat = 0
+# for i in range (num1, num2):
+#   if i % 2 ==0:
+#     chet += i
+#     a_chet = chet / i
+#     print(chet, a_chet)
+#   elif i %3 ==0:
+#     nechet += i
+#     a_nechet = nechet / i
+#     print(nechet, a_nechet)
+#   elif i % 9 ==0:
+#     krat += i
+#     a_krat = krat / i
+#     print(krat, a_krat)
+
+# line = int(input("Введите длину: "))
+# symvol = input('Введите символ: ')
+# for i in range(line):
+#   print(symvol)
+
+
+# while True:
+#   num = int(input("Введите число: "))
+#   if num==7:
+#     print('Good Bye!')
+#     break
+#   if num > 0:
+#     print('Number is positive')
+#   elif num <0:
+#     print ('Number is negative')
+#   elif num == 0:
+#     print ('Number is equal to zero')
+
+# sum = 0
+# min = None
+# max = None
+# while True:
+#   num = int(input("Введите число: "))
+#   if num==7:
+#     print('Good bye')
+#     break
+#   if min==None and max==None:
+#     min = num
+#     max = num
+#   if num>max:
+#     max = num
+#   if num<min:
+#     min = num
+#     sum+=num
+#     print(f"min = {min}\nmax = {max}\nsum = {sum}")
