@@ -114,3 +114,15 @@
 #     tail = str(n%10) + tail
 #   n//=10
 # print(tail)
+
+# for i in range(1, 10+1):
+#   for j in range(1, 10+1):
+#     print(f'{i} * {j} = {i*j}',end='   ')
+#   print()
+
+# x = int(input('Введите первое число: '))
+# y= int(input('Введите второе число: '))
+# for i in range(1, 10+1):
+#   print(f'{x} * {i} = {x*i}',end='   ')
+# for i in range(1, 10+1):
+#   print(f'{y} * {i} = {y*i}', end='   ')
