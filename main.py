@@ -86,3 +86,31 @@
 #     min = num
 #     sum+=num
 #     print(f"min = {min}\nmax = {max}\nsum = {sum}")
+
+
+
+# x = int(input('Введите целое число: '))
+# y = int(input('Введите целое число возведения в степень: '))
+# print(x**y)
+
+# count = 0 
+# for i in range(100, 1000): 
+#     num = str(i) 
+#     if num[0] == num[1] or num[0] == num[2] or num[1] == num[2]: 
+#         count += 1 
+# print(count)
+
+# count = 0 
+# for i in range(100, 10000): 
+#     num = str(i) 
+#     if num[0] != num[1] or num[0] != num[2] or num[1] != num[2]: 
+#         count += 1 
+# print(count)
+
+# n = int(input('Введите число: '))
+# tail = ''
+# while n:
+#   if not (n%10==3 or n%10==6):
+#     tail = str(n%10) + tail
+#   n//=10
+# print(tail)
